@@ -1,0 +1,23 @@
+    aside {
+        width: 15%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 5%;
+        float: right;
+        font-style: italic;
+        background-color: lightgray;
+    }
+
+    .laatikko {
+        word-wrap: break-word;
+    }
+
+    h1 {
+        margin: 5%;
+    }
+
+    p {
+        margin: 5%;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
