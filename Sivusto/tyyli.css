@@ -1,0 +1,34 @@
+body {
+    background-color: #EFF1C5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.otsikkoDiv {
+    text-align: center;
+    color: #002E2C;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.tervehdysDiv {
+    text-align: center;
+    color: #002E2C;
+    font-size: 16px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3E7AF;
+    padding: 5px;
+    border: 2px transparent;
+}
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #E3E7AF;
+}
