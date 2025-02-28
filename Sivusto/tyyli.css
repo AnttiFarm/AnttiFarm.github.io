@@ -2,75 +2,76 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
 
-    body {
+body {
 
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        margin: 0;
-        font-family: Verdana;
-        color: #002E2C;
-        background-color: #EFF1C5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Verdana;
+    color: #002E2C;
+    background-color: #EFF1C5;
 
-    }
+}
 
-    .otsikkoDiv {
-        text-align: center;
-        font-size: 22px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 5px;
-    }
+.otsikkoDiv {
+    text-align: center;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
 
-    .tervehdysDiv {
-        text-align: center;
-        font-size: 16px;
-        width: 70%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #E3E7AF;
-        padding: 5px;
-        border: 2px transparent;
-    }
+.tervehdysDiv {
+    text-align: center;
+    font-size: 16px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3E7AF;
+    padding: 5px;
+    border: 2px transparent;
+}
 
-    .footer {
-        background-color: #E3E7AF;
-        text-align: center;
-        padding: 10px;
-        position: relative;
-        bottom: 0;
-        width: 100%;
-    }
+.footer {
+    background-color: #E3E7AF;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
-    /* ylä valikko */
+/* ylä valikko */
 
-    .navbar {
-        display: flex;
-        justify-content: center;
-        padding: 10px 0;
-        gap: 40px;
-    }
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 40px;
+}
 
-    .navbar a {
-        color: #002E2C;
-        text-decoration: none;
-        padding: 14px 20px;
-        text-align: center;
-        border-radius: 5px;
-        border: 2px solid;
-        border-color: #002E2C;
-        background-color: #fcffff;
-    }
+.navbar a {
+    color: #002E2C;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #002E2C;
+    background-color: #fcffff;
+}
 
-    .navbar a:hover {
-        background-color: #EFF1C5;
-    }
+.navbar a:hover {
+    background-color: #EFF1C5;
+}
 
-    #valittu {
+#valittu {
 
-        background-color: #E3E7AF;
-    }
+    background-color: #E3E7AF;
+}
