@@ -1,14 +1,14 @@
 body {
 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Verdana;
     color: #002E2C;
     background-color: #EFF1C5;
-    font-family: Verdana;
-    margin: 50px 100px;
-
 
 }
-
-
 
 .otsikkoDiv {
     text-align: center;
@@ -32,35 +32,41 @@ body {
     border: 2px transparent;
 }
 
-footer {
-    padding-top: 5px;
-    padding-bottom: 5px;
+.footer {
     background-color: #E3E7AF;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 /* ylä valikko */
 
-nav a { 
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 40px;
+    /* Adds space between the boxes */
+}
 
-    background: #FCFFFF;
-    font-family: Verdana;
+.navbar a {
     color: #002E2C;
     text-decoration: none;
-    display:inline-block;
-    border: 2px solid #002E2C;
-    padding-inline: 10px;
-    padding-block: 10px;
-    font-size: 22px;
-    
+    padding: 14px 20px;
+    text-align: center;
+    border-radius: 5px;
+    /* Rounds the corners of the boxes */
+    background-color: #E3E7AF;
+    /* Sets a background color for the boxes */
 }
 
-nav a:hover {
-
-    background-color:#EFF1C5;
-
+.navbar a:hover {
+    background-color: #0056b3;
 }
 
-    /* valitun sivun ylälaatikon väri */
+/* valitun sivun ylälaatikon väri */
 #valittu {
 
     background-color: #E3E7AF;
