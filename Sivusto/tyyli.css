@@ -52,8 +52,13 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 2px;
+    margin: 12px 2px;
     cursor: pointer;
+    top: 80px;
+}
+
+.toimintakehote:hover {
+    background-color: #EFF1C5;
 }
 
 .footer {
