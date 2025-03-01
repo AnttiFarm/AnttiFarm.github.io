@@ -104,3 +104,47 @@ body {
     background-color: red;
     text-align: right;
 }*/
+
+.galleriasivu {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.image-section {
+    flex: 1;
+    background-image: ('');
+    background-size: cover;
+    background-position: center;
+}
+
+.text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text-box-large {
+    flex: 2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #E3E7AF;
+}
+
+.text-box-small {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #E3E7AF;
+}
