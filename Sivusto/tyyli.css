@@ -22,12 +22,14 @@ body {
     justify-content: center;
     align-items: center;
     padding: 5px;
+    position: relative;
+    top: 150px;
 }
 
 .tervehdysDiv {
     text-align: center;
     font-size: 16px;
-    width: 70%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -35,11 +37,12 @@ body {
     background-color: #E3E7AF;
     padding: 5px;
     border: 2px transparent;
+    position: relative;
+    top: 200px;
 }
 
 .cta {
     display: flex;
-    justify-content: center;
 }
 
 .toimintakehote {
@@ -51,10 +54,12 @@ body {
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     margin: 12px 2px;
     cursor: pointer;
-    top: 80px;
+    position: relative;
+    top: 250px;
 }
 
 .toimintakehote:hover {
@@ -65,8 +70,9 @@ body {
     background-color: #E3E7AF;
     text-align: center;
     padding: 10px;
-    position: relative;
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
 }
 
@@ -122,7 +128,6 @@ body {
     width: 80%;
     max-width: 1200px;
     margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .image-section {
@@ -131,7 +136,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f0f0f0;
+
 }
 
 .image-section img {
