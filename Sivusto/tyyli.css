@@ -5,46 +5,67 @@
 }
 
 body {
-
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     margin: 0;
     font-family: Verdana;
     color: #002E2C;
     background-color: #EFF1C5;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .otsikkoDiv {
     text-align: center;
     font-size: 22px;
+    margin-top: 3vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 5px;
+    width: 100%;
+    position: relative;
 }
 
 .tervehdysDiv {
     text-align: center;
     font-size: 16px;
-    width: 70%;
-    margin: auto;
+    margin-top: 1vh;
+    width: 60%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #E3E7AF;
-    padding: 5px;
+    padding: 2px;
     border: 2px transparent;
+    position: relative;
+}
+
+.cta {
+    display: flex;
+}
+
+.toimintakehote {
+    border: 2px solid #002E2C;
+    border-radius: 10px;
+    background-color: #fcffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #002E2C;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+.toimintakehote:hover {
+    background-color: #EFF1C5;
 }
 
 .footer {
     background-color: #E3E7AF;
     text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
+    padding: 2px;
+    margin-top: auto;
     width: 100%;
+    box-sizing: border-box;
 }
 
 /* ylä valikko */
@@ -52,19 +73,21 @@ body {
 .navbar {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 10px 0;
-    gap: 40px;
+    width: 100%;
 }
 
 .navbar a {
+    padding: 14px 0;
+    width: 150px;
     color: #002E2C;
     text-decoration: none;
-    padding: 14px 20px;
     text-align: center;
     border-radius: 5px;
-    border: 2px solid;
-    border-color: #002E2C;
     background-color: #fcffff;
+    border: #002E2C solid;
+    margin: 0 50px;
 }
 
 .navbar a:hover {
@@ -72,7 +95,6 @@ body {
 }
 
 #valittu {
-
     background-color: #E3E7AF;
 }
 
@@ -82,4 +104,63 @@ body {
     text-align: right;
 }*/
 
+.galleriasivu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.image-section {
+    flex: 1;
+    /* Takes up half of the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image-section img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text-section {
+    flex: 1;
+    /* Takes up the other half of the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.text-box-small {
+    flex: 1;
+    /* Smaller box */
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.text-box-large {
+    flex: 3;
+    /* Larger box */
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
