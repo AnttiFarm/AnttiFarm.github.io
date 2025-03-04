@@ -7,38 +7,34 @@
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 0;
     font-family: Verdana;
     color: #002E2C;
     background-color: #EFF1C5;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .otsikkoDiv {
     text-align: center;
     font-size: 22px;
+    margin-top: 3vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 5px;
+    width: 100%;
     position: relative;
-    top: 150px;
 }
 
 .tervehdysDiv {
     text-align: center;
     font-size: 16px;
+    margin-top: 1vh;
     width: 60%;
-    margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #E3E7AF;
-    padding: 5px;
+    padding: 2px;
     border: 2px transparent;
     position: relative;
-    top: 200px;
 }
 
 .cta {
@@ -55,11 +51,8 @@ body {
     text-align: center;
     text-decoration: none;
     display: flex;
-    justify-content: center;
-    margin: 12px 2px;
+    margin-top: 2vh;
     cursor: pointer;
-    position: relative;
-    top: 250px;
 }
 
 .toimintakehote:hover {
@@ -69,11 +62,10 @@ body {
 .footer {
     background-color: #E3E7AF;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    padding: 2px;
+    margin-top: auto;
     width: 100%;
+    box-sizing: border-box;
 }
 
 /* ylä valikko */
