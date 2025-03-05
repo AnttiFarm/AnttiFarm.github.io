@@ -99,11 +99,6 @@ body {
     background-color: #E3E7AF;
 }
 
-/*#yhteystiedotDiv {
-    font-size: 60px;
-    background-color: red;
-    text-align: right;
-}*/
 
 .galleriasivu {
     display: flex;
@@ -165,3 +160,15 @@ body {
     background-color: #fff;
     text-align: center;
 }
+/* yhteystiedot grid boxi*/
+#ytiedot {
+    grid-template-areas: 
+        'g1 g3'
+        'g2 g3';
+}
+
+/* grid boxi asettelu */
+.grid-teksti1 { grid-area: g1;}
+.grid-kuva { grid-area: g3;}
+
+    
