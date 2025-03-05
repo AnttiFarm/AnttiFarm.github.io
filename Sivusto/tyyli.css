@@ -159,6 +159,7 @@ body {
     padding: 20px;
     background-color: #fff;
     text-align: center;
+<<<<<<< HEAD
 }
 /* yhteystiedot grid boxi*/
 #ytiedot {
@@ -172,3 +173,7 @@ body {
 .grid-kuva { grid-area: g3;}
 
     
+=======
+    font-size: 14px;
+}
+>>>>>>> 3c7abf4ffd24b56b56f5bfeec6f8b29b998a2c1c
