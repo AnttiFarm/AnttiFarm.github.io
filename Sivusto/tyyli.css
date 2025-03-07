@@ -60,14 +60,27 @@ body {
     background-color: #EFF1C5;
 }
 
+/*footer*/
 .footer {
     background-color: #E3E7AF;
-    text-align: center;
     padding: 2px;
     margin-top: auto;
     width: 100%;
     box-sizing: border-box;
-    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*footersomelogot*/
+#footersomelogot {
+    font-size: 15px;
+    padding: 10px;
+
+
+}
+
+#footerteksti {
+    padding-top: 30px;
 }
 
 /* ylä valikko */
@@ -220,6 +233,7 @@ body {
     text-align: center;
     text-decoration: none;
     margin: 5px 10px;
+
 }
 
 .fa:hover {
@@ -227,17 +241,17 @@ body {
 }
 
 .fa-facebook {
-    background-color: #EFF1C5;
+
     color: #3B5998;
 }
 
 .fa-instagram {
-    background: #EFF1C5;
+
     color: #125688;
 }
 
 .fa-youtube {
-    background: #EFF1C5;
+
     color: #bb0000;
 }
 
