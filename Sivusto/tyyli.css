@@ -141,6 +141,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 400px;
+    min-width: 450px;
     max-height: 400px;
     max-width: 450px;
 }
@@ -191,8 +193,10 @@ body {
     text-align: center;
     font-size: 14px;
     overflow: scroll;
-    max-height: 230px;
+    min-width: 540px;
     min-height: 230px;
+    max-width: 540px;
+    max-height: 230px;
 }
 
 
