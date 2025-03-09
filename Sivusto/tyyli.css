@@ -280,6 +280,10 @@ body {
 
 @media (max-width: 600px) {
 
+    body {
+        overflow-x: hidden
+    }
+
     .section {
         display: flex;
         flex-direction: column;
@@ -322,12 +326,21 @@ body {
         margin-top: 40px;
     }
 
+    .navbar {
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+        width: 100%;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
     .navbar a {
         padding: 14px 0;
-        min-width: 100px;
-        max-width: 100px;
+        min-width: 90px;
+        max-width: 90px;
         margin: 0 10px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .tervehdysDiv {
