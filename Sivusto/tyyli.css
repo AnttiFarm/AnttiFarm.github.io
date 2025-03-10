@@ -183,7 +183,10 @@ body {
     font-size: 12px;
     background-color: #fffcff;
     text-align: center;
+    min-height: 70px;
+    min-width: 540px;
     max-height: 70px;
+    max-width: 540px;
     overflow: scroll;
     border: #E3E7AF solid;
 }
