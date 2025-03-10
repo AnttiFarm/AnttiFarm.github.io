@@ -401,15 +401,13 @@ body {
         padding: 20px;
     }
 
-    .grid-kuva {
-        img {
-            width: 100%;
-            max-width: fit-content;
-            height: auto;
-            overflow: hidden;
-        }
-
-
-
+    .grid-kuva img {
+        width: 100%;
+        max-width: fit-content;
+        height: auto;
+        overflow: hidden;
     }
+
+
+
 }
