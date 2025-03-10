@@ -206,7 +206,6 @@ body {
 
 /* yhteystiedot grid boxi*/
 #ytiedot {
-    width: 100%;
     grid-template-areas:
         'g1 g3'
         'g2 g3';
