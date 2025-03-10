@@ -322,18 +322,18 @@ body {
         min-height: auto;
         margin: 10px 0;
     }
-/*footteri*/
+
+    /*footteri*/
     .footer {
         margin-top: 40px;
         align-items: center;
-        flex-direction: column;  
-        
+        flex-direction: column;
+        font-size: 16px;
     }
 
     #footersomelogot {
         padding: 0;
         margin-top: 0;
-        
     }
 
 
@@ -361,7 +361,7 @@ body {
     }
 
     #ytiedot {
-        grid-template-areas: 
+        grid-template-areas:
             'g1'
             'g2'
             'g3';
@@ -379,15 +379,15 @@ body {
     .grid-teksti1 {
         margin: auto;
         height: auto;
-        width:fit-content;
+        width: fit-content;
         justify-content: center;
         display: grid;
         align-items: center;
-        
+
     }
-   
+
     #yhteysDiv {
-        justify-items: center; 
+        justify-items: center;
         align-items: center;
         width: 100%;
         max-width: fit-content;
@@ -405,5 +405,6 @@ body {
         }
 
 
-    
+
+    }
 }
